@@ -21,7 +21,9 @@
     animation: floatText 8s linear infinite;
     transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
+.text{  animation: floatText1 8s linear infinite;
 
+}
 .floating-text:hover {
     color: var(--text-hover-color);
     transform: scale(1.1);
@@ -45,9 +47,32 @@
 
 @keyframes floatText {
     0% {
-        transform: translateX(-100%);
+        transform: translateX(-10%);
     }
     100% {
         transform: translateX(100%);
+    }
+}
+@keyframes floatText1 {
+    0% {
+        transform: translateX(-30%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+@media screen and (max-width: 768px) {
+    .floating-text {
+     
+        font-size: var(--mb-font-mb);
+    
+    }
+    @keyframes floatText1 {
+        0% {
+            transform: translateX(-10%);
+        }
+        100% {
+            transform: translateX(100%);
+        }
     }
 }

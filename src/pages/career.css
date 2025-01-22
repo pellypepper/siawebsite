@@ -44,10 +44,7 @@
     transition: transform var(--transition-duration) ease-in-out, background-color var(--transition-duration) ease-in-out;
 }
 
-.career-float:hover {
-    transform: translateY(-3px);
-    background-color: var(--primary-color);
-}
+
 
 .career-float h1 {
     text-align: center;
