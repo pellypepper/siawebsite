@@ -1,0 +1,37 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  background-color: #f0f0f0;
+}
+
+:root{
+  --primary-color: rgb(255, 119, 0);
+  --bg-rel-white: #ededed;
+  --main-color: rgba(255, 166, 0, 0.785);
+  --secondary-color: #f8f9fa;
+  --main-color-hover:  rgb(172, 113, 4);
+  --sub-color: black;
+  --sub-1-color: white;
+  --dark-color: #333;
+  --border-color: rgb(55, 53, 53);
+  --border-color-hover: #333;
+  --mb-font-mb: 15px;
+  --mb-font-av: 20px;
+  --mb-font-lg: 25px;
+
+  --av-font-mb: 15px;
+  --av-font-av: 18px;
+  --av-font-lg: 25px;
+
+  --lg-font-mb: 17px;
+  --lg-font-av: 20px;
+  --lg-font-lg: 27px;
+
+  --transition-duration: 0.3s;
+}

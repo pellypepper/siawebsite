@@ -1,0 +1,69 @@
+
+
+.about-text, .service-text ul, .contact-text div, .career-text {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color var(--transition-duration) ease-in-out, color var(--transition-duration) ease-in-out, transform var(--transition-duration) ease-in-out;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+}
+
+.about-text:hover, .service-text ul:hover, .contact-text div:hover {
+    background-color: var(--secondary-color);
+    color: var(--dark-color);
+    transform: translateY(-5px);
+}
+
+.about-text p, .service-text p, .contact-text p, .career-text p, .new-text p, .new-text1 p {
+    margin-top: 1.5rem;
+    line-height: 1.5rem;
+    transition: font-size var(--transition-duration) ease-in-out;
+}
+
+.about-text h3, .service-text ul li, .service-text span, .contact-text span, .new-text1 span {
+    margin-top: 1rem;
+    font-weight: bolder;
+    transition: font-size var(--transition-duration) ease-in-out;
+}
+
+.service-text ul {
+    padding: 40px;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.service-text ul li {
+    margin-top: 1rem;
+}
+
+.contact-text {
+    line-height: 1.5rem;
+}
+
+.contact-text span, .career-text {
+    margin-top: .5rem;
+}
+
+.new-text {
+    font-style: italic;
+}
+
+.new-text1 {
+    text-align: right;
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .about-text p, .service-text p, .service-text ul li, .service-text span, .contact-text p, .contact-text span, .career-text p, .new-text p, .new-text1 p, .new-text1 span {
+        font-size: var(--mb-font-av);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about-text p, .service-text p, .service-text ul li, .service-text span, .contact-text p, .contact-text span, .career-text p, .new-text p, .new-text1 p, .new-text1 span {
+        font-size: var(--av-font-av);
+    }
+}

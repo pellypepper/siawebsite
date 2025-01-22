@@ -1,0 +1,26 @@
+
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: var(--bg-rel-white);
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color var(--transition-duration) ease-in-out, transform var(--transition-duration) ease-in-out;
+}
+
+.footer:hover {
+    background-color: var(--primary-color);
+    transform: translateY(-5px);
+}
+
+
+.footer p {
+    color: var(--dark-color);
+    margin-bottom: 20px;
+    transition: color var(--transition-duration) ease-in-out;
+}
