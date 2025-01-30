@@ -1,5 +1,16 @@
-
-
+.section-10{
+    padding: 40px;
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform var(--transition-duration) ease-in-out, box-shadow var(--transition-duration) ease-in-out;
+}
+.section-10 img{
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+    transition: transform var(--transition-duration) ease-in-out, box-shadow var(--transition-duration) ease-in-out;
+}
 .career-wrapper {
     text-align: center;
     padding: 40px;
@@ -25,6 +36,7 @@
 
 .career-img img {
     width: 100%;
+    padding: 20px;
     height: 300px;
     border-radius: 10px;
     transition: transform var(--transition-duration) ease-in-out, box-shadow var(--transition-duration) ease-in-out;
@@ -37,7 +49,7 @@
 
 .career-float {
     margin-top: 1.5rem;
-    padding: 20px;
+
     background-color: var(--secondary-color);
     color: var(--sub-1-color);
     border-radius: 10px;

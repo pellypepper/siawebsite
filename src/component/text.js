@@ -69,8 +69,7 @@ export function CareerText (){
   return (
       <div className="career-text">
            <p>Whether you are looking to grow your career or earn some extra income, 
-            we encourage you to join our casual staff database or apply for a permanent
-             role. This is a great opportunity to work events, venues, and locations all
+            we encourage you to join our casual staff database or apply for a permanent role. This is a great opportunity to work events, venues, and locations all
              over the world!</p>
              <p>READ MORE <strong>WHAT THE TEAM SAYS</strong> Discover Dee Security Ltd 
              as an employer, find out if we are the team you want to join. It could be
@@ -111,6 +110,25 @@ export function NewText1 (){
            <span>95% of employees who completed the 2019 feedback forms rated the communication with
              the Dee Security Team at 4/5 or higher.</span>
       </div>
+  )
+}
+
+
+export function HomeText(){
+  return (
+    <div>
+     
+      <p>
+
+Dee Security  Ltd. offers customized security solutions 
+specifically designed for diverse sectors throughout the UK. 
+Our team, based in South Yorkshire and renowned for their 
+professionalism and SIA accreditation, provides extensive 
+security management, including manned guarding, mobile patrols,
+ and CCTV surveillance. We are committed to tailoring our services
+  to your unique requirements, ensuring your premises are protected 
+  with the highest level of diligence and expertise.</p>
+    </div>
   )
 }
 

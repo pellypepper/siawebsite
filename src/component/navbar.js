@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import './navbar.css';
+import Logo from "./logo";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes, faBars } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
@@ -18,7 +19,12 @@ export default function NavBar() {
   }
 
   return (
-    <section className="nav-wrapper">
+    <main>
+         <div className="logo-wrapper">
+        <Logo />
+                   </div>
+          <section className="nav-wrapper">
+   
 
       <button onClick={handleToggle} className="menu-toggle">
         <FontAwesomeIcon icon={faBars} className="icon-1" />
@@ -47,5 +53,6 @@ export default function NavBar() {
         </ul>
       </nav>
     </section>
+    </main>
   );
 }

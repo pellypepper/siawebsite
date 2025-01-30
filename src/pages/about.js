@@ -15,7 +15,7 @@ export default function About() {
           <img src='./assets/sec-1.webp' alt='about our services'/>
   
       </section>
-      <section className="section-3">
+      <section className="section-11">
         <h1>ABOUT US</h1>
           <Text  />
           <button>Enquire Today</button>
@@ -30,7 +30,7 @@ export default function About() {
           <Floating  />
 
       </section>
-      <section className="about-img">
+      <section className="about-img about-img-1">
   
           <img src='./assets/sec-2.webp' alt='about our services'/>
       </section>

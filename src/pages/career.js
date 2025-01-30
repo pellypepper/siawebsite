@@ -12,7 +12,7 @@ export default function Career() {
             <section>
                 <NavBar />
             </section>
-            <section className="section-2">
+            <section className="section-10">
             <img src="./assets/sec-3.webp" alt='career '/>
             </section>
 

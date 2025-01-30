@@ -1,56 +1,74 @@
 import React from 'react';
 import NavBar from '../component/navbar';
+import { Link } from 'react-router-dom';
 import './home.css';
-import { Text } from '../component/text';
-import  SocialMediaIcons  from '../component/social-icon';
+import { HomeText } from '../component/text';
+import SocialMediaIcons from '../component/social-icon';
 import Footer from '../component/footer';
 
 export default function Home() {
-    return(
-        <main>
-             <section className='section-1'>
-                <NavBar />
-             </section>
-             <section className='section-2'>
-                <img alt='sec-1' src='./assets/sec.webp'/>
-             </section>
+   
+   return (
+      <main>
+         <section className='section-1'>
+            <NavBar />
+         </section>
+         <section className='section-2'>
+            <h1>We are committed to delivering professional,
+               dependable, and customized security solutions
+               designed to address the specific needs of your
+               business</h1>
+            <div>
+               <button><Link to='/contact'>Get In Touch</Link></button>
+               <button><Link to='/about'>Our Services</Link></button>
+            </div>
 
-             <section className='section-3'>
-               <h1>ABOUT US</h1>
 
-               <Text />
+         </section>
+
+
+         <section className='section-4'>
+            <h1>CONNECT WITH US</h1>
+
+            <SocialMediaIcons />
+         </section>
+         <section className='section-3'>
+
+            <div className='section-3-text'>
+               <h1>Deep Security Experts with Nationwide Coverage</h1>
+               <HomeText />
 
                <button>Our Services</button>
-            </section>
-            <section className='section-4'>
-              <h1>CONNECT WITH US</h1>
+            </div>
 
-              <SocialMediaIcons />
-            </section>
+            <div className='section-3-img'>
+               <img src='/assets/sec-8.webp' alt='hero' />
+            </div>
+         </section>
 
-             <section className='section-5'>
-                 <h1>QUICK LINKS</h1>
+         <section className='section-5'>
+            <h1>QUICK LINKS</h1>
 
-               <div className='btn-wrapper'>
+            <div className='btn-wrapper'>
                <div>
-                    <p> Here to learn about our services?</p>
-                    <button>OUR SERVICES</button>
-                 </div>
-                 <div>
-                    <p> Get in touch?</p>
-                    <button>CONTACT US</button>
-                 </div>
-                 <div>
-                    <p> Want to work with us on a regular basis?</p>
-                    <button>CAREER</button>
-                 </div>
+                  <p> Here to learn about our services?</p>
+                  <button>OUR SERVICES</button>
                </div>
+               <div>
+                  <p> Get in touch?</p>
+                  <button>CONTACT US</button>
+               </div>
+               <div>
+                  <p> Want to work with us on a regular basis?</p>
+                  <button>CAREER</button>
+               </div>
+            </div>
 
-             </section>
+         </section>
 
-             <footer>
-                <Footer />
-            </footer>
-        </main>
-    )
+         <footer>
+            <Footer />
+         </footer>
+      </main>
+   )
 }
