@@ -37,9 +37,11 @@ nav ul li a {
     transition: color var(--transition-duration) ease-in-out;
 }
 
-nav ul li a:hover {
-    color: black;
+nav ul li:hover {
+  transform: scale(1.2) ;
+  transition: transform 0.3s ease-in-out;
 }
+
 
 nav ul li::after {
     content: '';
@@ -116,6 +118,14 @@ padding: 10px;
       cursor: pointer;
       transition: transform var(--transition-duration) ease-in-out;
     }
+
+nav ul li::after {
+  
+
+  left: 10px;
+  background-color: var(--main-color);
+
+}
     .menu-close {
       background-color: var(--primary-color);
       border: none;

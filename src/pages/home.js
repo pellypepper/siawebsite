@@ -38,7 +38,7 @@ export default function Home() {
                <h1>Deep Security Experts with Nationwide Coverage</h1>
                <HomeText />
 
-               <button>Our Services</button>
+               <button><Link to='/about'>Our Services</Link></button>
             </div>
 
             <div className='section-3-img'>
@@ -52,15 +52,15 @@ export default function Home() {
             <div className='btn-wrapper'>
                <div>
                   <p> Here to learn about our services?</p>
-                  <button>OUR SERVICES</button>
+                  <button><Link to='/about'>Our Services</Link></button>
                </div>
                <div>
                   <p> Get in touch?</p>
-                  <button>CONTACT US</button>
+                  <button><Link to='/contact'>CONTACT US</Link></button>
                </div>
                <div>
                   <p> Want to work with us on a regular basis?</p>
-                  <button>CAREER</button>
+                  <button><Link to='/career'>CAREER</Link></button>
                </div>
             </div>
 

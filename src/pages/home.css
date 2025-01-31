@@ -115,6 +115,10 @@ h1:hover {
     transform: scale(1.05); 
   }
   
+  button a{
+    text-decoration: none;
+    color: white;
+  }
 
 .section-3 button,
 .btn-wrapper div button,

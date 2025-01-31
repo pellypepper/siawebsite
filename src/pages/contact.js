@@ -16,7 +16,7 @@ export default function Contact() {
            <Text3 />
        </section>
 
-       <section className="float-wrapper">
+       <section className="contact-float">
       
            <Floating1 />
        </section>

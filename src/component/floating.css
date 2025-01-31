@@ -7,7 +7,7 @@
     white-space: nowrap;
     width: 100%;
     position: relative;
-    margin-bottom: 3rem;
+   
     justify-content: space-around;
     padding: 1rem 0;
 
@@ -17,7 +17,7 @@
 .floating-text {
     color: var(--dark-color);
     margin-right: 50px;
-    font-size: 24px;
+    font-size: 20px;
     animation: floatText 8s linear infinite;
     transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }

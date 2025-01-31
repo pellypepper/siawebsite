@@ -4,6 +4,7 @@ import {Text2, Text} from "../component/text";
 import './about.css'
 import Floating from "../component/floating";
 import Footer from "../component/footer";
+import { Link } from "react-router-dom";
 
 export default function About() {
     return(
@@ -18,7 +19,7 @@ export default function About() {
       <section className="section-11">
         <h1>ABOUT US</h1>
           <Text  />
-          <button>Enquire Today</button>
+          <button><Link to='/contact'>Enquire Today</Link></button>
       </section>
       <section className="service-wrapper">
         <h1>Our Services</h1>
