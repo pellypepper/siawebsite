@@ -2,7 +2,7 @@
 .footer {
     width: 100%;
     height: auto;
-    background-color: var(--bg-rel-white);
+    background-color: var(--main-color);
     padding: 40px;
     text-align: center;
     display: flex;
@@ -20,7 +20,7 @@
 
 
 .footer p {
-    color: var(--dark-color);
+    color: white;
     margin-bottom: 20px;
     transition: color var(--transition-duration) ease-in-out;
 }

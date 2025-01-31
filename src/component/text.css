@@ -7,8 +7,9 @@
     border-radius: 10px;
     transition: background-color var(--transition-duration) ease-in-out, color var(--transition-duration) ease-in-out, transform var(--transition-duration) ease-in-out;
     margin: 20px auto;
-    max-width: 800px;
+    width: 70%;
     background-color: #fff;
+    border-bottom: 5px solid var(--main-color);
 }
 
 .about-text:hover, .service-text ul:hover, .contact-text div:hover {

@@ -8,15 +8,19 @@ body {
     background-color: #f0f0f0;
 }
 
+.new-wrapper{
+    border-bottom: 5px solid var(--main-color);
+}
+
 .new-wrapper h1 {
     text-align: center;
     margin-top: 2rem;
-    color: var(--primary-color);
+    color: var(--main-color);
     transition: color var(--transition-duration) ease-in-out;
 }
 
 .new-wrapper h1:hover {
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .new-wrapper .new {

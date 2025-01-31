@@ -51,7 +51,9 @@ export default function NavBar() {
                     <p></p>
                     <li><Link to='/new'>NEWS</Link></li>
         </ul>
+     
       </nav>
+      <p className="nav-motto">.....Your Safety is our priority</p>
     </section>
     </main>
   );

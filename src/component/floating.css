@@ -1,7 +1,7 @@
 
 
 .floating-text-container {
-    background-color: var(--primary-color);
+    background: linear-gradient(135deg, var(--secondary-color), var(--main-color));
     display: flex;
     overflow: hidden;
     white-space: nowrap;
@@ -15,7 +15,7 @@
 }
 
 .floating-text {
-    color: var(--sub-1-color);
+    color: var(--dark-color);
     margin-right: 50px;
     font-size: 24px;
     animation: floatText 8s linear infinite;
