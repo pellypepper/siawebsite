@@ -59,7 +59,7 @@
 
 @media screen and (max-width: 768px) {
     .about-text p, .service-text p, .service-text ul li, .service-text span, .contact-text p, .contact-text span, .career-text p, .new-text p, .new-text1 p, .new-text1 span {
-        font-size: var(--mb-font-av);
+        font-size: var(--mb-font-mb);
     }
 }
 
