@@ -1,70 +1,127 @@
-# Getting Started with Create React App
+# 🛡️ Dee Security Ltd Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the source code for **Dee Security Ltd's official website**, built with **React.js**.  
+A responsive, modern, and interactive platform to showcase the company's services and connect with clients and potential employees.
 
-## Available Scripts
+![Dee Security Logo](public/assets/logo.webp)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📌 Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Dee Security Ltd** is a UK-based professional security provider.  
+This website highlights their offerings, provides essential company information, and includes an application portal for job seekers.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ✅ **Responsive Design** – Mobile, tablet, and desktop-friendly layout
+- 🎨 **Modern UI** – Smooth transitions, animations, and interactive elements
+- 📝 **Job Application Form** – With validation and easy-to-use interface
+- 🌐 **Social Media Integration** – Linked icons for extended reach
+- 💡 **Modular Components** – Reusable and clean codebase
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🗂️ Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```plaintext
+src/
+├── component/
+│   ├── floating.js/.css       # Animated service banners
+│   ├── footer.js/.css         # Footer with contact and legal info
+│   ├── form.js/.css           # Job application form
+│   ├── logo.js                # Animated company logo
+│   ├── navbar.js/.css         # Responsive navbar
+│   ├── social-icon.js         # Social links
+│   └── text.js/.css           # Reusable text components
+│
+├── pages/
+│   ├── about.js/.css          # About us page
+│   ├── career.js/.css         # Job listings and form
+│   ├── contact.js/.css        # Contact and location info
+│   ├── home.js/.css           # Landing page
+│   └── new.js/.css            # News, testimonials
+│
+└── App.js                     # Root React component
+🎨 Design Features
+🎨 CSS Variables for consistent styling
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🌀 Framer Motion animations for smooth UX
 
-### `npm run eject`
+📱 Responsive Layout using Flexbox & Grid
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🟦 Bootstrap-like Styles with custom theming
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+✨ Hover Effects and Transitions
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🛠️ Installation & Setup
+1. Clone the repository
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/dee-security-website.git
+cd dee-security-website
+2. Install dependencies
+bash
+Copy
+Edit
+npm install
+3. Run the development server
+bash
+Copy
+Edit
+npm start
+4. Build for production
+bash
+Copy
+Edit
+npm run build
+🧩 Dependencies
+React – UI framework
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+React Router DOM – Routing between pages
 
-## Learn More
+Framer Motion – Animations
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Font Awesome – Iconography
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+React Icons – Social and UI icons
 
-### Code Splitting
+📱 Responsive Design
+Breakpoints and layout behaviors:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Device	Width	Behavior
+Mobile	< 768px	Stacked layout, toggled nav
+Tablet/Desktop	≥ 768px	Horizontal layout, expanded UI
 
-### Analyzing the Bundle Size
+📄 Page Descriptions
+Page	Description
+🏠 Home	Introduction to Dee Security and quick access links
+🧾 About	Company history, values, and certifications
+💼 Career	Job openings and interactive application form
+📞 Contact	Contact details, address, and social media
+📰 News	Testimonials and latest updates
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🧩 Key Components
+Floating Text – Eye-catching animated service banners
 
-### Making a Progressive Web App
+Navbar – Responsive top nav with collapsible mobile menu
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Application Form – Validated input fields with smooth UX
 
-### Advanced Configuration
+Footer – Contact, navigation, and licensing info
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Social Icons – Direct links to platforms like Facebook, LinkedIn, etc.
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+📜 License
+Licensed under the MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📞 Contact
+For questions or support, email us at:
+📧 info@deesecurity.com
+
+© 2025 Dee Security Ltd. All Rights Reserved.
